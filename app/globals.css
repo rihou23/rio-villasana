@@ -8,7 +8,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; ba
 a { color: inherit; text-decoration: none; }
 .mono, .label, .logo, .tagline, .num { font-family: ui-monospace, "SF Mono", Consolas, "Courier New", monospace; }
 .wrap { max-width: 1000px; margin: 0 auto; padding: 0 1.25rem; }
-section { padding: 5.5rem 1.25rem 0; scroll-margin-top: 64px; }
+section.wrap { padding-top: 7rem; scroll-margin-top: 64px; }
 h1, h2, h3 { line-height: 1.15; letter-spacing: -.02em; }
 h2 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); margin: .5rem 0 .8rem; }
 h3 { font-size: 1.1rem; margin: .3rem 0 .4rem; }

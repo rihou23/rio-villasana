@@ -5,16 +5,17 @@ export const profile = {
   github: "rihou23",                 // projects load from this account automatically
   email: "rihouvillasana@gmail.com",          // 👈 your real email
   location: "Himamaylan City, Negros Occidental, Philippines",
-  tagline: "Recent IT Graduate | Aspiring Web Application Developer",
-  resume: "",                        // e.g. "/resume.pdf" (put file in /public). "" hides the button
-  linkedin: "",                      // e.g. "https://linkedin.com/in/yourname". "" hides it
+  tagline: "Recent IT Graduate | Aspiring Software Developer",
+  resume: "/resume.pdf",                        // e.g. "/resume.pdf" (put file in /public). "" hides the button
+  linkedin: "https://www.linkedin.com/in/rio-villasana-19b75a448/",
+  facebook: "https://www.facebook.com/share/1GvqLykWHN/",                      // e.g. "https://linkedin.com/in/yourname". "" hides it
   available: true,                   // shows the "Open to work" badge
 };
 
 export const hero = {
   headline: "I build web apps that are clean, fast and easy to use.",
   intro:
-    "I'm an IT graduate who builds websites and apps that work well and look good doing it. I like turning messy ideas into clean, useful experiences — and I learn something new on every project.",
+    "I'm an IT graduate who builds functional, user-friendly, and visually appealing websites and applications. I turn ideas into practical digital solutions, focusing on quality, clean design, and delivering results that meet each client's needs.",
 };
 
 // Section numbers, labels and titles. Use "\n" style by splitting into lines.
@@ -40,9 +41,9 @@ export const about = {
     "I'm currently looking for freelance opportunities or junior developer roles where I can apply my skills, gain experience, contribute to meaningful projects, and continue growing as a software developer.",
   ],
   facts: [
-    { label: "Based in", value: "Bacolod City, PH" },
-    { label: "Looking for", value: "Junior web developer roles" },
-    { label: "Focus", value: "Web applications" },
+    { label: "Based in", value: "Himamaylan City, Negros Occidental, PH" },
+    { label: "Looking for", value: "Junior Web Developer Roles, Freelance projects, and Remote Work Opportunities." },
+    { label: "Focus", value: "Web applications, App Development, and Software Development" },
   ],
 };
 
@@ -53,24 +54,24 @@ export const featured: Record<string, { title?: string; blurb?: string; pin?: bo
 export const hiddenRepos: string[] = []; // lowercase repo names to hide
 
 export const services = [
-  { title: "Web Development", text: "Responsive, well-organized pages and apps with clean, maintainable code.", tags: ["HTML", "CSS", "JavaScript", "React"] },
+  { title: "Web Development", text: "Responsive, well-organized pages and apps with clean, maintainable code.", tags: ["HTML", "CSS", "JavaScript", "React", "Kotlin"] },
   { title: "UI & Layout Design", text: "Wireframes and layouts that feel clear, consistent and easy to follow.", tags: ["Figma", "Wireframes", "UI Design"] },
-  { title: "App & Database Work", text: "Connecting interfaces to real data, from login to saving and loading records.", tags: ["Firebase", "Supabase", "MySQL", "PHP"] },
+  { title: "App & Database Work", text: "Connecting interfaces to real data, from login to saving and loading records.", tags: ["Firebase", "Supabase", "MySQL", "PHP", "MongoDB"] },
 ];
 
 export const education = [
-  { school: "Your University", what: "Bachelor of Science in Information Technology", when: "2022 – 2026" },
-  { school: "Your Senior High School", what: "Senior High School", when: "2020 – 2022" },
+  { school: "Carlos Hilado Memorial State University", what: "Bachelor of Science in Information Technology", when: "2022 – 2026" },
+  { school: "Himamaylan National High School", what: "HUMMS - Senior High School", when: "2020 – 2022" },
 ];
 
 export const experience = [
   { title: "Technical Support | Customer Service", place: "XBG Computers Inc.", when: "2026", text: "I have around five months of experience working with Piso WiFi systems, where I was involved in assembling and setting up the machines, doing basic troubleshooting, and checking their connectivity and functionality. I also interacted with customers and assisted them with common WiFi and technical concerns. Through this experience, I developed practical knowledge of computer hardware, basic networking, troubleshooting, and customer service.", tags: ["Computer Setup", "Hardware", "Troubleshooting","Networking","Customer Support","Data Encoding"] },
-  { title: "App Development", place: "Carlos Hilado Memorial State University", when: "2025-2026", text: "During approximately 2–3 months of application development, I encountered and resolved various technical challenges, integrated multiple APIs, and continuously improved the system based on feedback from users, teachers, my adviser, and the OJT coordinator. I also worked to meet different requirements and expectations throughout the development process This experience gave me valuable insights into real-world software development, particularly in problem-solving, system improvement, API integration, and handling user requirements. It allowed me to discover new technologies, explore different approaches, and understand the challenges involved in building an actual application. Most importantly, it strengthened my passion for software development and motivated me to continue learning, improving my skills, and building more projects.", tags: ["Computer Setup", "Hardware", "Troubleshooting","Networking","Customer Support","Data Encoding"] },
+  { title: "App Development", place: "", when: "2025-2026", text: "During 2–3 months of application development, I faced and resolved technical challenges, integrated multiple APIs, and improved the system based on feedback from users, teachers, my adviser, and the OJT coordinator. This experience strengthened my problem-solving skills, expanded my knowledge of software development, and helped me understand real-world development challenges. Most importantly, it deepened my passion for building applications and motivated me to keep learning and improving.", tags: ["Computer Setup", "Hardware", "Troubleshooting","Networking","Customer Support","Data Encoding"] },
 ];
 
 export const skills = [
   "Responsive Web Design", "UI Layout Planning", "Wireframing", "Frontend Development",
-  "Android UI Development", "Database Fundamentals", "Problem Solving", "Team Collaboration",
+  "Android and UI Development", "Database Fundamentals", "Problem Solving", "Team Collaboration",
 ];
 
 export const toolkit = [

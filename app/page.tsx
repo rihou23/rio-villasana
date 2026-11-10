@@ -92,7 +92,7 @@ export default function Page() {
             <div className="row">
               <a href="#projects" className="btn primary">View my work</a>
               <a href="#contact" className="btn">Get in touch</a>
-              {profile.resume && <a href={profile.resume} className="btn ghost">Resume ↗</a>}
+              {profile.resume && <a href={profile.resume} target="blank" className="btn ghost">Resume ↗</a>}
             </div>
           </div>
           <div className="avatar-box">
@@ -228,6 +228,7 @@ export default function Page() {
             <div className="links">
               <a href={ghUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
               {profile.linkedin && <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>}
+              {profile.facebook && <a href={profile.facebook} target="_blank" rel="noreferrer">Facebook ↗</a>}
             </div>
           </div>
         </section>
